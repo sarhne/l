@@ -24,7 +24,7 @@
     </style>
 </head>
 <body>
-    <iframe id="externalSite" src="https://sarhne.com/messages"></iframe>
+    <iframe id="externalSite" src="https://sarhne.com/"></iframe>
     <script>
         // كود JavaScript لضمان التحميل السلس
         window.onload = function() {
